@@ -52,25 +52,33 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Inicializar Swiper para o carrossel da Hero Section
     const heroSwiper = new Swiper('.hero-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 0,
+        centeredSlides: true,
         loop: true,
+        spaceBetween: 30,
+        loopAdditionalSlides: 3,
         autoplay: {
-            delay: 5000,
+            delay: 4000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true
         },
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true
+        breakpoints: {
+            0: { // Mobile
+                slidesPerView: 1.2,
+            },
+            768: { // Tablet
+                slidesPerView: 'auto',
+            },
+            1024: { // Desktop
+                slidesPerView: 'auto',
+            }
         }
     });
     
