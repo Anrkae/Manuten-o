@@ -2,7 +2,7 @@
 
 // Variável para armazenar todos os produtos após serem carregados do JSON
 let todosOsProdutos = [];
-const PRODUTOS_JSON_URL = '/json/produtos.json'; // Caminho para o seu arquivo JSON
+const PRODUTOS_JSON_URL = 'json/produtos.json'; // Caminho para o seu arquivo JSON
 
 // Função para criar o HTML de um produto
 function criarProdutoHTML(produto) {
