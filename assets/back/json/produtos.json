@@ -1,1 +1,52 @@
-
+[
+  {
+    "id": "flamengo-2025-26-casa",
+    "categoria": "nacionais",
+    "imgSrc": "https://postimg.cc/jDM31kPv",
+    "altText": "Camisa Flamengo 2025/26 - Casa",
+    "nome": "Camisa Flamengo 2025/26 - Casa",
+    "preco": "R$159,90",
+    "whatsappLink": "https://wa.me/5588996129495?text=Ol%C3%A1,%20tenho%20interesse%20na%20Camisa%20Flamengo%202025/26%20-%20Casa",
+    "delay": "100"
+  },
+  {
+    "id": "real-madrid-2025-26-casa",
+    "categoria": "internacionais",
+    "imgSrc": "https://postimg.cc/XBKQk2nf",
+    "altText": "Camisa Real Madrid 2025/26 - Casa",
+    "nome": "Camisa Real Madrid 2025/26 - Casa",
+    "preco": "R$159,90",
+    "whatsappLink": "https://wa.me/5588996129495?text=Ol%C3%A1,%20tenho%20interesse%20na%20Camisa%20Real%C2%A0Madrid%202025/26%20-%20Casa",
+    "delay": "100"
+  },
+  {
+    "id": "selecao-brasileira-2024-25",
+    "categoria": "selecoes",
+    "imgSrc": "https://postimg.cc/fkY2sbYV",
+    "altText": "Camisa Seleção Brasileira 2024/25",
+    "nome": "Camisa Seleção Brasileira 2024/25",
+    "preco": "R$159,90",
+    "whatsappLink": "https://wa.me/5588996129495?text=Ol%C3%A1,%20tenho%20interesse%20na%20Camisa%20Sele%C3%A7%C3%A3o%20Brasileira%202024/25",
+    "delay": "100"
+  },
+  {
+    "id": "palmeiras-2025-26-casa",
+    "categoria": "nacionais",
+    "imgSrc": "https://postimg.cc/kVks3r4N",
+    "altText": "Camisa Palmeiras 2025/26 - Casa",
+    "nome": "Camisa Palmeiras 2025/26 - Casa",
+    "preco": "R$159,90",
+    "whatsappLink": "https://wa.me/5588996129495?text=Ol%C3%A1,%20tenho%20interesse%20na%20Camisa%20Palmeiras%202025/26%20-%20Casa",
+    "delay": "100"
+  },
+  {
+    "id": "barcelona-2025-26-fora",
+    "categoria": "internacionais",
+    "imgSrc": "https://postimg.cc/q6H1nfHB",
+    "altText": "Camisa Barcelona 2025/26 - Fora",
+    "nome": "Camisa Barcelona 2025/26 - Fora",
+    "preco": "R$159,90",
+    "whatsappLink": "https://wa.me/5588996129495?text=Ol%C3%A1,%20tenho%20interesse%20na%20Camisa%20Barcelona%202025/26%20-%20Fora",
+    "delay": "500"
+  },
+]
