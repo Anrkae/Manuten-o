@@ -1,0 +1,23 @@
+[
+  {
+    "categoria": "Flamengo",
+    "titulo": "Camisa Flamengo 2025/26 - Casa",
+    "imagem": "cat/Flamengo/camisa1.jpg",
+    "preco": "R$159,90",
+    "whatsapp": "https://wa.me/5588996129495?text=Tenho%20interesse%20na%20Camisa%20Flamengo"
+  },
+  {
+    "categoria": "Palmeiras",
+    "titulo": "Camisa Palmeiras 2025/26 - Casa",
+    "imagem": "cat/Palmeiras/camisa1.jpg",
+    "preco": "R$159,90",
+    "whatsapp": "https://wa.me/5588996129495?text=Tenho%20interesse%20na%20Camisa%20Palmeiras"
+  },
+  {
+    "categoria": "RealMadrid",
+    "titulo": "Camisa Real Madrid 2025/26",
+    "imagem": "cat/RealMadrid/camisa1.jpg",
+    "preco": "R$159,90",
+    "whatsapp": "https://wa.me/5588996129495?text=Tenho%20interesse%20na%20Camisa%20RealMadrid"
+  }
+]
