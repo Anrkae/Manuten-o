@@ -1,0 +1,27 @@
+[
+  {
+    "imagem": "https://i.imgur.com/1X9dXjE.png",
+    "nome": "Camisa Flamengo",
+    "preco": "R$ 159,90"
+  },
+  {
+    "imagem": "https://i.imgur.com/Abc2JTx.png",
+    "nome": "Camisa Palmeiras",
+    "preco": "R$ 159,90"
+  },
+  {
+    "imagem": "https://i.imgur.com/LEfR5L5.png",
+    "nome": "Camisa São Paulo",
+    "preco": "R$ 159,90"
+  },
+  {
+    "imagem": "https://i.imgur.com/rI7QEYQ.png",
+    "nome": "Camisa Corinthians",
+    "preco": "R$ 159,90"
+  },
+  {
+    "imagem": "https://i.imgur.com/EWTgBd9.png",
+    "nome": "Camisa Vasco",
+    "preco": "R$ 159,90"
+  }
+]
