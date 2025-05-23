@@ -1,0 +1,52 @@
+[
+  {
+    "imagem": "https://i.postimg.cc/59D3LPxn/Banner-Produto-2.png",
+    "nome": "Camisa Flamengo",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa oficial do Flamengo, temporada atual. Qualidade premium.",
+    "fotos": [
+      "https://i.postimg.cc/59D3LPxn/Banner-Produto-2.png",
+      "https://i.postimg.cc/0yYqcbyr/Flamengo2.png"
+    ]
+  },
+  {
+    "imagem": "https://i.postimg.cc/156KHpXP/Banner-Produto-4.png",
+    "nome": "Camisa Santos CBJR",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa do Santos CBJR. Tecido leve e confortável.",
+    "fotos": [
+      "https://i.postimg.cc/156KHpXP/Banner-Produto-4.png",
+      "https://i.postimg.cc/qRWbTGWf/Santos2.png"
+    ]
+  },
+  {
+    "imagem": "https://i.postimg.cc/SRYnm73K/Banner-Produto-6.png",
+    "nome": "Camisa Palmeiras",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa do Palmeiras. Alta durabilidade e conforto.",
+    "fotos": [
+      "https://i.postimg.cc/SRYnm73K/Banner-Produto-6.png",
+      "https://i.postimg.cc/0NbM6BgM/Palmeiras2.png"
+    ]
+  },
+  {
+    "imagem": "https://i.postimg.cc/BZjp8WGj/Banner-Produto-3.png",
+    "nome": "Camisa Botafogo",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa do Botafogo. Design exclusivo e material de qualidade.",
+    "fotos": [
+      "https://i.postimg.cc/BZjp8WGj/Banner-Produto-3.png",
+      "https://i.postimg.cc/SNRWmD7d/Botafogo2.png"
+    ]
+  },
+  {
+    "imagem": "https://i.postimg.cc/FH4Vn7kS/Banner-Produto-5.png",
+    "nome": "Camisa Man City",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa do Manchester City. Tecnologia dry-fit.",
+    "fotos": [
+      "https://i.postimg.cc/FH4Vn7kS/Banner-Produto-5.png",
+      "https://i.postimg.cc/dtCzP6m5/ManCity2.png"
+    ]
+  }
+]
