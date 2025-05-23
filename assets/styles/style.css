@@ -1,1 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background: radial-gradient(circle at top left, rgba(114, 9, 183, 0.15), transparent 50%),
+              radial-gradient(circle at bottom right, rgba(114, 9, 183, 0.1), transparent 50%),
+              #0d0d0d;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #00ffaa;
+}
+
+header .social a {
+  margin-left: 15px;
+}
+
+header .social img {
+  width: 20px;
+  filter: invert(100%);
+  transition: filter 0.3s;
+}
+
+header .social img:hover {
+  filter: invert(70%) sepia(100%) saturate(300%) hue-rotate(120deg);
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+}
+
+.swiper-slide {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  pointer-events: none;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.card-price {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #00ffaa;
+}
+
+.btn {
+  background-color: #00ffaa;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00ddaa;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header nav ul {
+    gap: 15px;
+  }
+}
