@@ -40,10 +40,11 @@ class CarrosselProduto extends HTMLElement {
           background: rgba(255, 255, 255, 0.1);
           backdrop-filter: blur(10px);
           border-radius: 20px;
-          padding: 20px;
+          padding: 10px;
           display: flex;
           flex-direction: column;
           align-items: center;
+          max-width: 60%;
         }
 
         .card-img {
@@ -120,11 +121,11 @@ class CarrosselProduto extends HTMLElement {
       loop: true,
 
       coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
+        rotate: 0,
+        stretch: 80,
         depth: 200,
         modifier: 1,
-        slideShadows: true,
+        slideShadows: false,
       },
 
       navigation: {
