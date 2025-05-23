@@ -1,27 +1,27 @@
 [
   {
-    "imagem": "https://imgur.com/a/ZvK7yOL",
-    "nome": "Camisa Barcelona",
-    "preco": "R$ 159,90"
+    "imagem": "https://i.postimg.cc/59D3LPxn/Banner-Produto-2.png",
+    "nome": "Camisa Flamengo",
+    "preco": "R$ 149,90"
   },
   {
-    "imagem": "https://i.imgur.com/owUYwTg.jpeg",
-    "nome": "Camisa Brasil",
-    "preco": "R$ 159,90"
+    "imagem": "https://i.postimg.cc/156KHpXP/Banner-Produto-4.png",
+    "nome": "Camisa Santos CBJR",
+    "preco": "R$ 149,90"
   },
   {
-    "imagem": "https://i.imgur.com/LEfR5L5.png",
-    "nome": "Camisa São Paulo",
-    "preco": "R$ 159,90"
+    "imagem": "https://i.postimg.cc/SRYnm73K/Banner-Produto-6.png",
+    "nome": "Camisa Palmeiras",
+    "preco": "R$ 149,90"
   },
   {
-    "imagem": "https://i.imgur.com/rI7QEYQ.png",
-    "nome": "Camisa Corinthians",
-    "preco": "R$ 159,90"
+    "imagem": "https://i.postimg.cc/BZjp8WGj/Banner-Produto-3.png",
+    "nome": "Camisa Botafogo",
+    "preco": "R$ 149,90"
   },
   {
-    "imagem": "https://i.imgur.com/EWTgBd9.png",
-    "nome": "Camisa Vasco",
-    "preco": "R$ 159,90"
+    "imagem": "https://i.postimg.cc/FH4Vn7kS/Banner-Produto-5.png",
+    "nome": "Camisa Man City",
+    "preco": "R$ 149,90"
   }
 ]
