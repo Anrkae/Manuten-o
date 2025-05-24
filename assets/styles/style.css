@@ -8,22 +8,30 @@
   user-select: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: radial-gradient(circle at top left, rgba(114, 9, 183, 0.15), transparent 50%),
               radial-gradient(circle at bottom right, rgba(114, 9, 183, 0.1), transparent 50%),
               #0d0d0d;
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+      -webkit-tap-highlight-color: transparent;
+    outline: none; /* Adicionado por segurança para garantir que nenhum outline relacionado ao toque apareça */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 70px; /* Espaço para o header fixo */
 }
 
 header {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: fixed;
@@ -74,61 +82,12 @@ header .social img:hover {
   filter: invert(70%) sepia(100%) saturate(300%) hue-rotate(120deg);
 }
 
-.swiper {
-  width: 100%;
-  max-width: 1200px;
-  padding: 0;
+.gridProdutos {
+  margin: 15px;
 }
 
-.swiper-slide {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  max-width: 50%;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s;
-}
-
-.card-img {
-  width: 100%;
-  max-width: 250px;
-  border-radius: 15px;
-  margin-bottom: 15px;
-  pointer-events: none;
-}
-
-.card-title {
-  font-size: 1.2rem;
-  margin-bottom: 8px;
-  text-align: center;
-}
-
-.card-price {
-  font-size: 1rem;
-  margin-bottom: 15px;
-  color: #00ffaa;
-}
-
-.btn {
-  background-color: #00ffaa;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: #00ddaa;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: white;
+.gridProdutos h2 {
+  margin: 15px;
 }
 
 /* Responsividade */
