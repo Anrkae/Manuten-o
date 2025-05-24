@@ -1,4 +1,5 @@
-{
+[
+      {
         "imagem": "https://i.postimg.cc/59D3LPxn/Banner-Produto-2.png",
         "nome": "Camisa Flamengo",
         "descricao": "Camisa Flamengo 2025, tecido dry-fit, escudo emborrachado e costura premium."
@@ -23,3 +24,4 @@
         "nome": "Camisa Man City",
         "descricao": "Camisa Manchester City 2025, tecido dry-fit, escudo 3D, muito confortável e leve."
       }
+]

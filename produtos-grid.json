@@ -1,4 +1,5 @@
-{
+[
+       {
         imagens: [
           "https://i.postimg.cc/59D3LPxn/Banner-Produto-2.png",
           "https://i.postimg.cc/VNs0YzqR/Banner-Produto-Extra.png"
@@ -39,3 +40,4 @@
         preco: "R$ 149,90",
         descricao: "Camisa Manchester City dry-fit, escudo 3D, muito confortável."
       }
+]
