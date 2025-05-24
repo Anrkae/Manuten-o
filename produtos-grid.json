@@ -1,81 +1,80 @@
 [
   {
     "imagens": [
-      "https://i.postimg.cc/TykS0kDv/Banner-Real-Madrid-1.png",
-      "https://i.postimg.cc/Js5SD77n/Banner-Real-Madrid-2.png",
-      "https://i.postimg.cc/Bj0dnP0k/Banner-Real-Madrid-3.png",
-      "https://i.postimg.cc/3yrVgMWZ/Banner-Real-Madrid-4.png"
+      "https://i.postimg.cc/63wX9g6q/camisa-real-madrid-home-23-24-torcedor-adidas-imagem-3-jpeg1-06da50a0c3c942811816859218076842-1024-1.webp",
+      "https://i.postimg.cc/0yTv4rLp/camisa-real-madrid-home-23-24-torcedor-adidas-imagem-4-jpeg1-ef22a6e3748067487c16859218076582-1024-1.webp",
+      "https://i.postimg.cc/K8kFQtsG/camisa-real-madrid-home-23-24-torcedor-adidas-imagem-5-jpeg1-00bdc667e7a9dd2c7d16859218076872-1024-1.webp",
+      "https://i.postimg.cc/fbYsQDN1/camisa-real-madrid-home-23-24-torcedor-adidas-imagem-2-jpeg1-8899c16969bec8939016859218076921-1024-1.webp"
     ],
-    "nome": "Camisa Real Madrid",
+    "nome": "Camisa Real Madrid 2025/26",
     "preco": "R$ 149,90",
-    "descricao": "Camisa oficial do Real Madrid, tecido dry-fit premium."
+    "descricao": "Camisa oficial Real Madrid 2025/26, tecido dry-fit premium, escudo 3D e detalhes dourados."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/CnnWzjdT/Banner-Brasil-1.png",
-      "https://i.postimg.cc/PCnkvFm6/Banner-Brasil-2.png"
+      "https://i.postimg.cc/1XvP7BQt/74560fd4.jpg",
+      "https://i.postimg.cc/dVLQXbDK/242ce629.jpg"
     ],
-    "nome": "Camisa Brasil",
+    "nome": "Camisa Brasil 2025/26",
     "preco": "R$ 149,90",
-    "descricao": "Camisa oficial da Seleção Brasileira, dry-fit, alta qualidade."
+    "descricao": "Camisa oficial da Seleção Brasileira 2025/26, tecido leve dry-fit, escudo emborrachado."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/SjHBHtty/Banner-Barcelona-1.png",
-      "https://i.postimg.cc/VSYQDrZn/Banner-Barcelona-2.png"
+      "https://i.postimg.cc/zXfqbsCR/980ebada.jpg",
+      "https://i.postimg.cc/rp4Vy5Sn/52d26d01.jpg"
     ],
-    "nome": "Camisa Barcelona",
+    "nome": "Camisa Barcelona 2025/26",
     "preco": "R$ 149,90",
-    "descricao": "Camisa oficial do Barcelona, tecido dry-fit premium."
+    "descricao": "Camisa Barcelona 2025/26, tecido dry-fit premium, escudo em alto relevo."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/JtHg357S/Banner-Palmeiras-1.png",
-      "https://i.postimg.cc/GH0fXTHt/Banner-Palmeiras-2.png",
-      "https://i.postimg.cc/FY0NPQr5/Banner-Palmeiras-3.png"
+      "https://i.postimg.cc/sXF25TjC/2025010314090860-a6566704e9ed8e8ab717359644748155-1024-1024.webp",
+      "https://i.postimg.cc/gkMkgzzD/2025010314091832-d0c6d5b469d8b52eb317359644748300-1024-1024.webp"
     ],
-    "nome": "Camisa Palmeiras",
+    "nome": "Camisa Barcelona Fora 2025/26",
     "preco": "R$ 149,90",
-    "descricao": "Camisa oficial do Palmeiras 2025, detalhes dourados e tecido dry-fit."
+    "descricao": "Camisa Barcelona fora 2025/26, modelo alternativo, tecido dry-fit de alta qualidade."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/tZJ0H0jg/Banner-Flamengo-1.png",
-      "https://i.postimg.cc/k6YmVJc8/Banner-Flamengo-2.png",
-      "https://i.postimg.cc/0MF4Rbnt/Banner-Flamengo-3.png"
+      "https://i.postimg.cc/VsK88Kxs/camisa1.webp",
+      "https://i.postimg.cc/jdCrdzTH/e5949f12-d4e64a0883f0df28f617410605980607-1024-1024.webp",
+      "https://i.postimg.cc/x14810BC/0006e423-e3a299f8c838ea30c517410605979931-1024-1024.webp"
     ],
-    "nome": "Camisa Flamengo",
+    "nome": "Camisa Palmeiras 2025",
     "preco": "R$ 149,90",
-    "descricao": "Camisa oficial do Flamengo, tecido dry-fit premium."
+    "descricao": "Camisa oficial Palmeiras 2025, tecido dry-fit premium, escudo emborrachado e detalhes dourados."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/bddP7nyR/Banner-Real-Madrid-Casual-1.png",
-      "https://i.postimg.cc/mP3WYNjT/Banner-Real-Madrid-Casual-2.png",
-      "https://i.postimg.cc/QH52DkRc/Banner-Real-Madrid-Casual-3.png",
-      "https://i.postimg.cc/F7jB8FLZ/Banner-Real-Madrid-Casual-4.png"
+      "https://i.postimg.cc/Y9ftYkDQ/6bcaaf33-763590eab92a98cd6d17399700629003-1024-1024.webp",
+      "https://i.postimg.cc/yxsYbW3f/0e821a66-74df539011f1e25e2217399700625356-1024-1024.webp",
+      "https://i.postimg.cc/1X31FFqZ/cd2e857a-43f33c59c8ed2e2ced17399700628135-1024-1024.webp"
+    ],
+    "nome": "Camisa Flamengo 2025/26",
+    "preco": "R$ 149,90",
+    "descricao": "Camisa oficial Flamengo 2025/26, tecido dry-fit leve, escudo 3D e detalhes modernos."
+  },
+  {
+    "imagens": [
+      "https://i.postimg.cc/ZYxqyPXX/067da115-170d4287af655ff9b017308262757730-1024-1024.webp",
+      "https://i.postimg.cc/GmV31XsT/242fb5bf-871c0974ebfbf597f017308262757743-1024-1024.webp",
+      "https://i.postimg.cc/4NFszWP2/a482d5ea-3438cb6d7a8ba967be17308262757378-1024-1024.webp",
+      "https://i.postimg.cc/xT7VkcjW/f9d404b8-5b29bae76f89d6518217308262757967-1024-1024.webp"
     ],
     "nome": "Camisa Real Madrid Casual",
     "preco": "R$ 149,90",
-    "descricao": "Camisa casual do Real Madrid, modelo lifestyle, tecido confortável."
+    "descricao": "Camisa casual do Real Madrid, modelo lifestyle, tecido confortável e escudo bordado."
   },
   {
     "imagens": [
-      "https://i.postimg.cc/hhJFyqsy/Banner-Flamengo-Casual-1.png",
-      "https://i.postimg.cc/JHX21MdR/Banner-Flamengo-Casual-2.png"
+      "https://i.postimg.cc/FFp9KrL4/9f43467c-79b87ad7bfa2a8bf7217260634973962-1024-1024.webp",
+      "https://i.postimg.cc/MH32mG7f/e698d8dd-abda7e0b05a233a55c17260634973634-1024-1024.webp"
     ],
     "nome": "Camisa Flamengo Casual",
     "preco": "R$ 149,90",
-    "descricao": "Camisa casual do Flamengo, modelo lifestyle, tecido confortável."
-  },
-  {
-    "imagens": [
-      "https://i.postimg.cc/hJrgBbQ2/Banner-Barcelona-Fora-1.png",
-      "https://i.postimg.cc/YjV7MSjB/Banner-Barcelona-Fora-2.png",
-      "https://i.postimg.cc/hfdBjq7z/Banner-Barcelona-Fora-3.png"
-    ],
-    "nome": "Camisa Barcelona Fora",
-    "preco": "R$ 149,90",
-    "descricao": "Camisa Barcelona modelo fora de casa, dry-fit, design exclusivo."
+    "descricao": "Camisa casual do Flamengo, modelo lifestyle, tecido leve, confortável e escudo bordado."
   }
 ]
