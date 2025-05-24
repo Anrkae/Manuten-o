@@ -198,10 +198,6 @@ class GridProdutos extends HTMLElement {
         modalImgs.innerHTML = produto.imagens.map(src => `
           <img src="${src}">
         `).join('');
-
-        modalTitle.textContent = produto.nome;
-        modalPrice.textContent = produto.preco;
-        modalDesc.textContent = produto.descricao;
         modalEl.style.display = 'flex';
       });
     });
