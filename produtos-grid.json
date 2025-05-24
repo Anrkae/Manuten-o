@@ -1,10 +1,10 @@
 [
   {
     "imagens": [
-      "https://postimg.cc/TykS0kDv",
-      "https://postimg.cc/Js5SD77n",
-      "https://postimg.cc/Bj0dnP0k",
-      "https://postimg.cc/3yrVgMWZ"
+      "https://i.postimg.cc/TykS0kDv/Banner-Real-Madrid-1.png",
+      "https://i.postimg.cc/Js5SD77n/Banner-Real-Madrid-2.png",
+      "https://i.postimg.cc/Bj0dnP0k/Banner-Real-Madrid-3.png",
+      "https://i.postimg.cc/3yrVgMWZ/Banner-Real-Madrid-4.png"
     ],
     "nome": "Camisa Real Madrid",
     "preco": "R$ 149,90",
@@ -12,8 +12,8 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/CnnWzjdT",
-      "https://postimg.cc/PCnkvFm6"
+      "https://i.postimg.cc/CnnWzjdT/Banner-Brasil-1.png",
+      "https://i.postimg.cc/PCnkvFm6/Banner-Brasil-2.png"
     ],
     "nome": "Camisa Brasil",
     "preco": "R$ 149,90",
@@ -21,8 +21,8 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/SjHBHtty",
-      "https://postimg.cc/VSYQDrZn"
+      "https://i.postimg.cc/SjHBHtty/Banner-Barcelona-1.png",
+      "https://i.postimg.cc/VSYQDrZn/Banner-Barcelona-2.png"
     ],
     "nome": "Camisa Barcelona",
     "preco": "R$ 149,90",
@@ -30,9 +30,9 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/JtHg357S",
-      "https://postimg.cc/GH0fXTHt",
-      "https://postimg.cc/FY0NPQr5"
+      "https://i.postimg.cc/JtHg357S/Banner-Palmeiras-1.png",
+      "https://i.postimg.cc/GH0fXTHt/Banner-Palmeiras-2.png",
+      "https://i.postimg.cc/FY0NPQr5/Banner-Palmeiras-3.png"
     ],
     "nome": "Camisa Palmeiras",
     "preco": "R$ 149,90",
@@ -40,9 +40,9 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/tZJ0H0jg",
-      "https://postimg.cc/k6YmVJc8",
-      "https://postimg.cc/0MF4Rbnt"
+      "https://i.postimg.cc/tZJ0H0jg/Banner-Flamengo-1.png",
+      "https://i.postimg.cc/k6YmVJc8/Banner-Flamengo-2.png",
+      "https://i.postimg.cc/0MF4Rbnt/Banner-Flamengo-3.png"
     ],
     "nome": "Camisa Flamengo",
     "preco": "R$ 149,90",
@@ -50,10 +50,10 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/bddP7nyR",
-      "https://postimg.cc/mP3WYNjT",
-      "https://postimg.cc/QH52DkRc",
-      "https://postimg.cc/F7jB8FLZ"
+      "https://i.postimg.cc/bddP7nyR/Banner-Real-Madrid-Casual-1.png",
+      "https://i.postimg.cc/mP3WYNjT/Banner-Real-Madrid-Casual-2.png",
+      "https://i.postimg.cc/QH52DkRc/Banner-Real-Madrid-Casual-3.png",
+      "https://i.postimg.cc/F7jB8FLZ/Banner-Real-Madrid-Casual-4.png"
     ],
     "nome": "Camisa Real Madrid Casual",
     "preco": "R$ 149,90",
@@ -61,8 +61,8 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/hhJFyqsy",
-      "https://postimg.cc/JHX21MdR"
+      "https://i.postimg.cc/hhJFyqsy/Banner-Flamengo-Casual-1.png",
+      "https://i.postimg.cc/JHX21MdR/Banner-Flamengo-Casual-2.png"
     ],
     "nome": "Camisa Flamengo Casual",
     "preco": "R$ 149,90",
@@ -70,9 +70,9 @@
   },
   {
     "imagens": [
-      "https://postimg.cc/hJrgBbQ2",
-      "https://postimg.cc/YjV7MSjB",
-      "https://postimg.cc/hfdBjq7z"
+      "https://i.postimg.cc/hJrgBbQ2/Banner-Barcelona-Fora-1.png",
+      "https://i.postimg.cc/YjV7MSjB/Banner-Barcelona-Fora-2.png",
+      "https://i.postimg.cc/hfdBjq7z/Banner-Barcelona-Fora-3.png"
     ],
     "nome": "Camisa Barcelona Fora",
     "preco": "R$ 149,90",
