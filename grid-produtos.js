@@ -10,7 +10,7 @@ class GridProdutos extends HTMLElement {
 
   async fetchProdutos() {
     try {
-      const res = await fetch('grid-produtos.json');
+      const res = await fetch('produtos-grid.json');
       const produtos = await res.json();
       this.render(produtos);
     } catch (error) {
