@@ -1,53 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Portfólio | Barreto Sportwear</title>
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <link rel="stylesheet" href="assets/styles/style.css">
 
   <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
   <script>eruda.init();</script>
-  
 </head>
 
 <body oncontextmenu="return false">
-  <!-- Header -->
-  <header>
-      <div class="container">
-        <nav>
-          <ul class="nav-links">
-            <li><a href="#">Início</a></li>
-            <li><a href="#gridProdutos">Lançamentos</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </nav>
-  </header>
-  
-    <!-- Swiper Carrossel -->
-    <carrossel-produto></carrossel-produto>
-    
-      <div class="gridProdutos" id="gridProdutos">
-          <h2>Lançamentos</h2>
-          <grid-produtos></grid-produtos>
-          
-          <div class="btnCatalogo">
-            <a href="https://drive.google.com/file/d/1tvSokES7b2SlZGy2-jTczveLNBhcrUki/view?usp=sharing" target="_blank">
-              <button class="btn">
-                <i class="animation"></i>Catálogo Completo<i class="animation"></i>
-              </button>
-            </a>
-          </div>
-      </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="carrossel.js" defer></script>
-    <script src="grid-produtos.js" defer></script>  
-    
-  </body>
+
+<!-- Mensagem Rolante -->
+<div class="top-message">
+  <p>VENDAS APENAS PELO NOSSO WHATSAPP! — FRETE GRÁTIS PARA TODO BRASIL!</p>
+</div>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#gridProdutos">Lançamentos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Swiper Carrossel -->
+<carrossel-produto data-aos="fade-up"></carrossel-produto>
+
+<!-- Lançamentos -->
+<div class="gridProdutos" id="gridProdutos" data-aos="fade-up">
+  <h2>Lançamentos</h2>
+  <grid-produtos></grid-produtos>
+
+  <div class="btnCatalogo">
+    <a href="https://drive.google.com/file/d/1tvSokES7b2SlZGy2-jTczveLNBhcrUki/view?usp=sharing" target="_blank">
+      <button class="btn">
+        <i class="animation"></i>Catálogo Completo<i class="animation"></i>
+      </button>
+    </a>
+  </div>
+</div>
+
+<!-- Sobre
+<section id="sobre" data-aos="fade-up">
+  <div class="container">
+    <h2>Sobre Nós</h2>
+    <p>Barreto Sportwear — Camisas de qualidade, estilo e conforto. Atuamos exclusivamente online e entregamos para todo o Brasil.</p>
+  </div>
+</section> -->
+
+<!-- Contato -->
+<section id="contato" data-aos="fade-up">
+  <div class="container contato-box">
+    <h2>Fale Conosco</h2>
+    <p>Tem alguma dúvida ou quer fazer um pedido personalizado? Nos envie uma mensagem!</p>
+    <form class="form-contato" action="https://formsubmit.co/barretosportwear@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Barreto Sportwear — Todos os direitos reservados.</p>
+    <p>Desenvolvido por Barreto</p>
+  </div>
+</footer>
+
+<!-- Botão Flutuante WhatsApp -->
+<a href="https://wa.me/5585998537355" target="_blank" class="whatsapp-btn" aria-label="Fale conosco no WhatsApp">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+<script src="assets/js/script.js"></script>
+<script src="carrossel.js" defer></script>
+<script src="grid-produtos.js" defer></script>  
+
+</body>
 </html>

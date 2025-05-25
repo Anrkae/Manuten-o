@@ -153,7 +153,7 @@ class GridProdutos extends HTMLElement {
         <div class="card-price">${p.preco}</div>
         <div class="btns">
           <div class="btnComprar">
-            <a class="btn" href="https://wa.me/5588996129495?text=Olá! Quero comprar a ${encodeURIComponent(p.nome)}" target="_blank">
+            <a class="btn" href="https://wa.me/5585998537355?text=Olá! Quero comprar a ${encodeURIComponent(p.nome)}" target="_blank">
               Comprar
             </a>
           </div>
