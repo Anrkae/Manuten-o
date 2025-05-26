@@ -11,7 +11,7 @@ class CarrosselProduto extends HTMLElement {
 
   async carregarProdutos() {
     try {
-      const response = await fetch('produtos.json');
+      const response = await fetch('components/produtos/produtos.json');
       if (!response.ok) throw new Error('Erro ao carregar produtos');
       const data = await response.json();
       return data;
