@@ -1,10 +1,19 @@
 [
   {
     "imagens": [
+      "https://i.postimg.cc/FFp9KrL4/9f43467c-79b87ad7bfa2a8bf7217260634973962-1024-1024.webp",
+      "https://i.postimg.cc/MH32mG7f/e698d8dd-abda7e0b05a233a55c17260634973634-1024-1024.webp"
+    ],
+    "nome": "Camisa Flamengo Casual",
+    "preco": "R$ 144,90",
+    "descricao": "Camisa casual do Flamengo, modelo lifestyle, tecido leve, confortável e escudo bordado."
+  },
+  {
+    "imagens": [
       "https://i.postimg.cc/3NPJhFYX/Save-Clip-App-502769665-17982123254835544-9180139039054670914-n.jpg", "https://i.postimg.cc/gc503m8x/Save-Clip-App-502132443-17982123269835544-1491564958230251877-n.jpg", "https://i.postimg.cc/8P6zH9mt/Save-Clip-App-503047941-17982123272835544-8044436117272657689-n.jpg", "https://i.postimg.cc/cLG45hDZ/Save-Clip-App-502910774-17982123302835544-1493887864590605521-n.jpg", "https://i.postimg.cc/mkc2K5fZ/Save-Clip-App-502732804-17982123299835544-5113650094924669097-n.jpg"
     ],
     "nome": "Camisa Santos 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa azul do Peixão 2025/26, tecido dry-fit premium, escudo 3D."
   },
   {
@@ -12,7 +21,7 @@
       "https://i.postimg.cc/XNttFPjv/9d018c83.jpg", "https://i.postimg.cc/hPx600v1/6de6b31b.jpg", "https://i.postimg.cc/d3ZmwnpH/2e9d6b5b.jpg", "https://i.postimg.cc/NLh8Mmwg/bceb8292.jpg", "https://i.postimg.cc/CMRWR0Vt/a602add6.jpg"
     ],
     "nome": "Camisa Real Madrid 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa oficial Real Madrid 2025/26, tecido dry-fit premium, escudo 3D e detalhes dourados."
   },
   {
@@ -21,7 +30,7 @@
       "https://i.postimg.cc/dVLQXbDK/242ce629.jpg"
     ],
     "nome": "Camisa Brasil 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa oficial da Seleção Brasileira 2025/26, tecido leve dry-fit, escudo emborrachado."
   },
   {
@@ -30,7 +39,7 @@
       "https://i.postimg.cc/rp4Vy5Sn/52d26d01.jpg"
     ],
     "nome": "Camisa Barcelona 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa Barcelona 2025/26, tecido dry-fit premium, escudo em alto relevo."
   },
   {
@@ -39,7 +48,7 @@
       "https://i.postimg.cc/gkMkgzzD/2025010314091832-d0c6d5b469d8b52eb317359644748300-1024-1024.webp"
     ],
     "nome": "Camisa Barcelona Fora 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa Barcelona fora 2025/26, modelo alternativo, tecido dry-fit de alta qualidade."
   },
   {
@@ -49,7 +58,7 @@
       "https://i.postimg.cc/x14810BC/0006e423-e3a299f8c838ea30c517410605979931-1024-1024.webp"
     ],
     "nome": "Camisa Palmeiras 2025",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa oficial Palmeiras 2025, tecido dry-fit premium, escudo emborrachado e detalhes dourados."
   },
   {
@@ -59,7 +68,7 @@
       "https://i.postimg.cc/1X31FFqZ/cd2e857a-43f33c59c8ed2e2ced17399700628135-1024-1024.webp"
     ],
     "nome": "Camisa Flamengo 2025/26",
-    "preco": "R$ 149,90",
+    "preco": "R$ 154,90",
     "descricao": "Camisa oficial Flamengo 2025/26, tecido dry-fit leve, escudo 3D e detalhes modernos."
   },
   {
@@ -72,14 +81,5 @@
     "nome": "Camisa Real Madrid Casual",
     "preco": "R$ 149,90",
     "descricao": "Camisa casual do Real Madrid, modelo lifestyle, tecido confortável e escudo bordado."
-  },
-  {
-    "imagens": [
-      "https://i.postimg.cc/FFp9KrL4/9f43467c-79b87ad7bfa2a8bf7217260634973962-1024-1024.webp",
-      "https://i.postimg.cc/MH32mG7f/e698d8dd-abda7e0b05a233a55c17260634973634-1024-1024.webp"
-    ],
-    "nome": "Camisa Flamengo Casual",
-    "preco": "R$ 149,90",
-    "descricao": "Camisa casual do Flamengo, modelo lifestyle, tecido leve, confortável e escudo bordado."
-  }
+  }  
 ]
