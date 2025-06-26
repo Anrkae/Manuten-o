@@ -10,6 +10,7 @@ class GridProdutos extends HTMLElement {
 
   async fetchProdutos() {
     try {
+      // O caminho para o seu JSON original
       const res = await fetch('components/produtos/produtos-grid.json');
       const produtos = await res.json();
       this.render(produtos);
@@ -95,49 +96,26 @@ class GridProdutos extends HTMLElement {
           width: 25px !important;
           height: 25px !important;
         }
-        /* Modal */
+        /* Modal (mantido como no seu original) */
         .modal {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100vw;
-          height: 100vh;
-          background: rgba(0,0,0,0.8);
-          display: none;
-          align-items: center;
-          justify-content: center;
-          z-index: 1000;
+          position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+          background: rgba(0,0,0,0.8); display: none; align-items: center;
+          justify-content: center; z-index: 1000;
         }
         .modal-content {
-          background: #111;
-          border-radius: 20px;
-          padding: 20px;
-          max-width: 400px;
-          width: 90%;
-          color: white;
-          text-align: center;
-          position: relative;
-          animation: fadeIn 0.3s;
+          background: #111; border-radius: 20px; padding: 20px;
+          max-width: 400px; width: 90%; color: white; text-align: center;
+          position: relative; animation: fadeIn 0.3s;
         }
         .modal-gallery {
-          display: flex;
-          gap: 10px;
-          overflow-x: auto;
-          margin-bottom: 15px;
+          display: flex; gap: 10px; overflow-x: auto; margin-bottom: 15px;
         }
         .modal-gallery img {
-          width: 100%;
-          border-radius: 10px;
-          flex-shrink: 0;
-          max-width: 300px;
+          width: 100%; border-radius: 10px; flex-shrink: 0; max-width: 300px;
         }
         .close {
-          position: absolute;
-          top: 10px;
-          right: 15px;
-          font-size: 24px;
-          color: #fff;
-          cursor: pointer;
+          position: absolute; top: 10px; right: 15px; font-size: 24px;
+          color: #fff; cursor: pointer;
         }
         @keyframes fadeIn {
           from {opacity: 0; transform: scale(0.9);}
@@ -153,7 +131,7 @@ class GridProdutos extends HTMLElement {
         <div class="card-price">${p.preco}</div>
         <div class="btns">
           <div class="btnComprar">
-            <a class="btn" href="https://wa.me/5585998537355?text=Olá! Quero comprar a ${encodeURIComponent(p.nome)}" target="_blank">
+            <a class="btn" href="pages/landing-page.html?id=${i}">
               Comprar
             </a>
           </div>
@@ -182,34 +160,23 @@ class GridProdutos extends HTMLElement {
       ${modal}
     `;
 
+    // Lógica do modal (mantida como no seu original)
     const modalEl = this.shadowRoot.getElementById('modal');
     const closeModal = this.shadowRoot.getElementById('closeModal');
     const modalImgs = this.shadowRoot.getElementById('modalImgs');
-    const modalTitle = this.shadowRoot.getElementById('modalTitle');
-    const modalPrice = this.shadowRoot.getElementById('modalPrice');
-    const modalDesc = this.shadowRoot.getElementById('modalDesc');
-
+    // ... restante da lógica do modal
     const detailButtons = this.shadowRoot.querySelectorAll('button[data-index]');
     detailButtons.forEach(btn => {
       btn.addEventListener('click', () => {
         const index = btn.getAttribute('data-index');
         const produto = produtos[index];
-
-        modalImgs.innerHTML = produto.imagens.map(src => `
-          <img src="${src}">
-        `).join('');
+        modalImgs.innerHTML = produto.imagens.map(src => `<img src="${src}">`).join('');
         modalEl.style.display = 'flex';
       });
     });
-
-    closeModal.addEventListener('click', () => {
-      modalEl.style.display = 'none';
-    });
-
+    closeModal.addEventListener('click', () => { modalEl.style.display = 'none'; });
     modalEl.addEventListener('click', (e) => {
-      if (e.target === modalEl) {
-        modalEl.style.display = 'none';
-      }
+      if (e.target === modalEl) { modalEl.style.display = 'none'; }
     });
   }
 }
