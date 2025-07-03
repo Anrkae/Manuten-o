@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editor de Produtos CSV - Shopify</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Editor CSV de Produtos Shopify</h1>
 
+    <!-- Upload de CSV -->
+    <div class="csv-upload">
+      <input type="file" id="csvFile" accept=".csv" />
+      <button onclick="carregarCSV()">Carregar CSV</button>
+    </div>
+
+    <!-- Substituição de texto -->
+    <section class="mass-replace">
+      <h2>Substituição de Texto</h2>
+      <input type="text" id="findText" placeholder="Buscar por..." />
+      <input type="text" id="replaceText" placeholder="Substituir por..." />
+      <select id="targetField">
+        <option value="all">Todos os campos</option>
+        <option value="Title">Título</option>
+        <option value="Tags">Tags</option>
+        <option value="Vendor">Vendor</option>
+        <option value="Product Type">Tipo</option>
+        <option value="Variant SKU">SKU</option>
+      </select>
+      <button onclick="aplicarSubstituicao()">Aplicar</button>
+    </section>
+
+    <!-- Alterar descrição com preview -->
+    <section class="mass-description-edit">
+      <h2>Alterar Descrição em Massa</h2>
+      <div class="group">
+        <label>Filtrar por Tipo de Produto:
+          <input type="text" id="descricaoFiltroTipo" placeholder="Ex: Camiseta" />
+        </label>
+
+        <label>Nova Descrição (Body HTML):
+          <textarea id="descricaoNova" rows="5" placeholder="Digite aqui a nova descrição completa em HTML ou texto puro..."></textarea>
+        </label>
+
+        <div class="buttons">
+          <button onclick="mostrarPreviewDescricao()">Visualizar</button>
+          <button onclick="alterarDescricao()">Aplicar nova descrição</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabela dos produtos -->
+    <section id="tabelaCSVContainer">
+      <h2>Produtos</h2>
+      <div id="tabelaCSV" class="scrollable-table"></div>
+    </section>
+
+    <!-- Exportação -->
+    <div class="export">
+      <button onclick="exportarCSV()">Exportar CSV Atualizado</button>
+    </div>
+  </div>
+
+  <!-- Modal de Preview -->
+  <div id="modalPreview" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" onclick="fecharPreview()">&times;</span>
+      <h3>Pré-visualização da Nova Descrição</h3>
+      <div id="previewContent" class="preview-box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

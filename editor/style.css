@@ -1,0 +1,170 @@
+/* Reset básico */
+body {
+  font-family: sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Upload CSV */
+.csv-upload {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Inputs e select */
+input[type="text"],
+textarea,
+select {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Botões */
+button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  margin: 10px 5px 0 0;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Seções */
+section {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.mass-replace,
+.mass-description-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mass-description-edit textarea {
+  font-family: monospace;
+  background: #f9f9f9;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Tabela */
+.scrollable-table {
+  max-height: 500px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  min-width: 100px;
+}
+
+table th {
+  background-color: #eaeaea;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+td[contenteditable="true"] {
+  background-color: #ffffe0;
+}
+
+/* Exportação */
+.export {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Modal de Preview */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.preview-box {
+  border: 1px solid #ccc;
+  background: #fafafa;
+  padding: 1rem;
+  white-space: pre-wrap;
+}
